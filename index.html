@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Condition</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="w-50">
+        <h2>Số tăng dần</h2>
+        <form>
+          <div class="form-group">
+            <label for="a">Số a:</label>
+            <input type="number" class="form-control" id="a" />
+          </div>
+          <div class="form-group">
+            <label for="b">Số b:</label>
+            <input type="number" class="form-control" id="b" />
+          </div>
+          <div class="form-group">
+            <label for="c">Số c:</label>
+            <input type="number" class="form-control" id="c" />
+          </div>
+          <button
+            onclick="sort()"
+            type="button"
+            class="btn btn-primary"
+          >
+            Sắp xếp
+          </button>
+
+          <p id="tangDan" class="alert alert-danger"></p>
+        </form>
+
+        <h2>Máy tính nhà Pháp</h2>
+        <form>
+          <div class="form-group">
+            <label for="">Ai rứa?</label>
+            <select class="form-control" name=""
+            id="user">
+                <option value="">Tôi là...</option>
+                <option value="ba">Bố</option>
+                <option value="me">Mẹ</option>
+                <option value="anh">Anh trai</option>
+                <option value="em">Em gái</option>
+            </select>
+          </div>
+          <button
+            onclick="wellcome()"
+            type="button"
+            class="btn btn-primary"
+          >
+            Mở máy
+          </button>
+
+          <p id="loiChao" class="alert alert-danger"></p>
+        </form>
+
+        <h2>Đếm số chẵn lẻ</h2>
+        <form>
+          <div class="form-group">
+            <label for="num1">Số thứ 1:</label>
+            <input type="number" class="form-control" id="num1" />
+          </div>
+          <div class="form-group">
+            <label for="num2">Số thứ 2:</label>
+            <input type="number" class="form-control" id="num2" />
+          </div>
+          <div class="form-group">
+            <label for="num3">Số thứ 3:</label>
+            <input type="number" class="form-control" id="num3" />
+          </div>
+          <button
+            onclick="chanLe()"
+            type="button"
+            class="btn btn-primary"
+          >
+            Đếm
+          </button>
+          <p id="hienThi" class="alert alert-danger"></p>
+        </form>
+
+        <h2>Kiểm tra tam giác</h2>
+        <form>
+          <div class="form-group">
+            <label for="numa">Cạnh a:</label>
+            <input type="number" class="form-control" id="numa" />
+          </div>
+          <div class="form-group">
+            <label for="numb">Cạnh b:</label>
+            <input type="number" class="form-control" id="numb" />
+          </div>
+          <div class="form-group">
+            <label for="numc">Cạnh c:</label>
+            <input type="number" class="form-control" id="numc" />
+          </div>
+          <button
+            onclick="tamGiac()"
+            type="button"
+            class="btn btn-primary"
+          >
+            Kiểm tra
+          </button>
+          <p id="kiemTra" class="alert alert-danger"></p>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="./js/bai1.js"></script> -->
+    <!-- <script src="./js/bai2.js"></script> -->
+    <!-- <script src="./js/bai3.js"></script> -->
+    <script src="./js/bai4.js"></script>
+  </body>
+</html>
